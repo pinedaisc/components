@@ -1,0 +1,1 @@
+//TODO: Aun falta revisar los alineamientos de las cajas dentro de '.card

@@ -1,0 +1,56 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    width: 520px;
+    height: 580px;
+    /* this is not part of the component */
+}
+
+
+.card-container{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card{
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(7, 177, 207);
+    background: rgb(7, 177, 207);
+    display: flex;
+    padding: 16px;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+.card .title{
+    
+    margin: 0 auto;
+}
+
+
+
+
+.card2{
+
+    width: 90%;
+    height: 102%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(143, 189, 197);
+    background: rgb(143, 189, 197);
+    transform: rotate(358deg);
+    position: absolute;
+    left: 1rem;
+    /* top: 0.5rem; */
+    /* right: 0; */
+    /* bottom: 1px; */
+}
